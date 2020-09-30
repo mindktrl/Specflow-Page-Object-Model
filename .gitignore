@@ -1,0 +1,41 @@
+# VStudio
+[Oo]bj
+[Bb]in
+*.user
+*.suo
+*.[Cc]ache
+*.bak
+*.ncb
+*.log 
+*.DS_Store
+[Tt]humbs.db 
+Ankh.NoLoad
+# Resharper Ignore
+_ReSharper.*
+*.resharper
+**/.vs/*
+
+dependencies/solr-5.3.1/*
+packages/*
+
+/tools/Addins/*
+/tools/Cake/*
+/tools/NUnit.ConsoleRunner.3.4.0/*
+
+/dependencies/schemas
+/*.DotSettings
+/tools/nuget.exe
+/tools/packages.config
+/tools/packages.config.md5sum
+
+# Custom File Locations
+.coverage
+.sonarqube
+.test
+.vscode
+tools
+*.NunitResult.xml
+.dotnet
+.vs
+.scenarios
+/*.feature.cs
